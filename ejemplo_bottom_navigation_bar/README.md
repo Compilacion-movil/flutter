@@ -1,4 +1,4 @@
-# ejemplobottomnavigationbar
+# Ejemplo de creación de un BottomNavigationBar en Flutter
 
 Ejemplo de como crear un BottomNavigationBar
 
