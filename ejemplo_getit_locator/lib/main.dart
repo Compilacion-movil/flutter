@@ -1,4 +1,5 @@
 import 'package:ejemplogetitlocator/di/injector.dart';
+import 'package:ejemplogetitlocator/main_controller.dart';
 import 'package:ejemplogetitlocator/main_viewmodel.dart';
 import 'package:flutter/material.dart';
 
@@ -17,33 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'GetIt Flutter'),
-    );
-  }
-}
-
-class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
-
-  final String title;
-
-  @override
-  _MyHomePageState createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-
-  final viewModel = locator.get<MainViewModel>();
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-      ),
-      body: Center(
-        child: Text('El mensaje es:  ${viewModel.fetchData()}'),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      home: MainController(title: 'GetIt Flutter'),
     );
   }
 }
