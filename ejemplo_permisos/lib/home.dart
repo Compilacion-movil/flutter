@@ -69,8 +69,11 @@ class _HomeState extends State<Home> {
     if (await permission.request().isGranted) {
       //Permiso concedido
       _displaySnackBar(context);
+    }else if (await permission.request().isDenied){
+      //Permiso revocado
+      //debemso crear una alerta indicando al usaurio que necsitamos ese permiso
     } else {
-      //Preguntamos si está permanentemente denegado
+      //Preguntamos si está permanentemente denegado, solo en Android
       requestPermanentlyDeniedPermission(permission);
     }
   }
