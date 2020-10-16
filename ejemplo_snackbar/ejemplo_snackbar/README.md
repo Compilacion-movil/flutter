@@ -1,16 +1,13 @@
-# ejemplo_snackbar
+# Ejemplo de creación de una Snackbar en Flutter
 
-A new Flutter application.
+Ejemplo de cómo crear SnackBar en Flutter. Aprende cómo se pueden crear este tipo de componentes en Flutter ya sea el modo básico como custodiando algunos de sus parámetros.
+  
+Es un ejemplo del post que describe como hacer esta implementación en una aplicación Flutter.
+El ejemplo completo con código lo podéis encontrar en https://compilacionmovil.com/como-crear-un-snackbar-en-flutter/
 
-## Getting Started
+[![](http://img.youtube.com/vi/H-Z6tZzXpiM/0.jpg)](http://www.youtube.com/watch?v=H-Z6tZzXpiM "")
 
-This project is a starting point for a Flutter application.
+#flutter #Snackbar #flutterdevelopment
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Twitter: https://twitter.com/CompilacionM
+* Twitter: https://twitter.com/antocara (my personal profile)
