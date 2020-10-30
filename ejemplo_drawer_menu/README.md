@@ -1,16 +1,14 @@
-# ejemplo_drawer_menu
+# Ejemplo de creación de un Drawer Menú en Flutter
 
-A new Flutter application.
+Ejemplo de cómo crear un Drawer Menú en Flutter. Aprende cómo se pueden crear este tipo de componentes en Flutter ya sea el modo básico como customizando algunos de sus parámetros.
+  
+Es un ejemplo del post que describe como hacer esta implementación en una aplicación Flutter.
+El ejemplo completo con código lo podéis encontrar en https://compilacionmovil.com/como-crear-un-drawer-menu-en-flutter/?preview_id=349&preview_nonce=65b892475b&preview=true
 
-## Getting Started
+[![](http://img.youtube.com/vi/yaP-Zq8LGYo/0.jpg)](https://youtu.be/yaP-Zq8LGYo "")
 
-This project is a starting point for a Flutter application.
+#flutter #Drawer #flutterdevelopment
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Twitter: https://twitter.com/CompilacionM
+* Twitter: https://twitter.com/antocara (my personal profile)
+* Youtube: https://www.youtube.com/channel/UCl-a1NAqLfLE7x4DFAwh-mA
