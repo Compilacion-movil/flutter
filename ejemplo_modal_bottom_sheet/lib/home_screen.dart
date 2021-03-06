@@ -16,16 +16,10 @@ class _HomeScreenState extends State<HomeScreen> {
           title: Text("Ejemplo Modal Bottom Sheet"),
         ),
         body: _gridView()
-
-        // Center(
-        //     child: ElevatedButton(
-        //   child: Text("Abrir Modal Sheet"),
-        //   onPressed: () => _showModalBottomSheet(),
-        // )),
         );
   }
 
-  void _showModalBottomSheet() {
+  void _showModalBottomSheet(BuildContext context) {
     showModalBottomSheet(
         context: context,
         builder: (context) {
@@ -76,7 +70,7 @@ class _HomeScreenState extends State<HomeScreen> {
         padding: const EdgeInsets.all(5),
         itemBuilder: (BuildContext context, int index) {
           return GestureDetector(
-            onTap: () => _showModalBottomSheet(),
+            onTap: () => _showModalBottomSheet(context),
             child: Card(
               child: Center(
                   child: Image.network('https://placeimg.com/640/640/nature/$index')),
