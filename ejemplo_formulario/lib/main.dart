@@ -36,7 +36,7 @@ class LoginScreenState extends State<LoginScreen> {
   // Crea una clave global que identificará de manera única el widget Form
   // y nos permita validar el formulario
   //
-  // Nota: Esto es un GlobalKey<FormState>, no un GlobalKey<MyCustomFormState>!
+  // Nota: Esto es un GlobalKey<FormState>, no un GlobalKey<LoginScreenState>!
   final _formKey = GlobalKey<FormState>();
 
   @override
@@ -51,7 +51,7 @@ class LoginScreenState extends State<LoginScreen> {
           _passwordInput(),//2
           Padding(
               padding: const EdgeInsets.symmetric(vertical: 16.0),
-              child: _loginButton()),//2 
+              child: _loginButton()),//2
         ],
       ),
     );
